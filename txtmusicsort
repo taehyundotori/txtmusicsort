@@ -220,7 +220,6 @@ finishSize++;
 }
 }
 else if (head1==lstMember[cmp1].length && head2<lstMember[cmp2].length) {
-//リストcmp1が走査済 - リストcmp2の残りをコピ?
 while (head2<lstMember[cmp2].length){
 rec[nrec] = lstMember[cmp2][head2];
 head2++;
@@ -298,9 +297,9 @@ document.getElementById("rightField").innerHTML = str2;
 numQuestion++;
 }
 
-//数値を名前（顔文字）に変換+++++++++++++++++++++++++++++++
 function toNameFace(n){
 var str = namMember[n];
+
 
 return str;
 }
